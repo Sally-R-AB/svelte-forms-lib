@@ -1,5 +1,5 @@
 {
-  "name": "svelte-forms-lib",
+  "name": "svelte-forms-lib-sally",
   "version": "0.0.0-semantically-released",
   "description": "A fork of Svelte forms lib - A lightweight library for managing forms in Svelte",
   "typings": "./lib/index.d.ts",
