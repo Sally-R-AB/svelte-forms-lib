@@ -1,6 +1,6 @@
 {
   "name": "svelte-forms-lib-sally",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A fork of Svelte forms lib - A lightweight library for managing forms in Svelte",
   "typings": "./lib/index.d.ts",
   "scripts": {
@@ -18,6 +18,13 @@
     "lib/*"
   ],
   "svelte": "./lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./build/index.mjs",
+      "require": "./build/index.js",
+      "svelte": "./lib/index.js"
+    }
+  },
   "author": "Samuel Wahlberg",
   "browserslist": [
     "last 1 chrome versions"
